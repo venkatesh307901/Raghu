@@ -19,7 +19,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.venkatesh.fasttest"
+        applicationId "com.fasttest.venkatesh.fasttest"
         minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
@@ -32,6 +32,24 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+
+    signingConfigs {
+        release {
+            // this keystore is located at module level
+            storeFile file("/Users/venkatesh/Desktop/FastTest.jks")
+            storePassword "123asdqweA"
+            keyAlias "key0"
+            keyPassword "123asdqwe"
+        }
+    }
+
+
+
+
+
+
 }
 
 dependencies {

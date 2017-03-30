@@ -1,4 +1,4 @@
-package com.example.venkatesh.fasttest;
+package com.fasttest.venkatesh.fasttest;
 
 import org.junit.Test;
 
